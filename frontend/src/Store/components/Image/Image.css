@@ -1,0 +1,136 @@
+.card {
+  padding: 10px;
+  box-shadow: 0 0 5px #ffdfdf;
+  border-radius: 5px;
+  width: 100%;
+  /* height: 70%; */
+  overflow: hidden;
+  border: 0.1px dotted #818181;
+}
+
+
+.card .container1 {
+  gap: 2%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 200px;
+  overflow: auto;
+  margin-bottom: 3px;
+
+}
+
+.card .container1 .image {
+  width: 30%;
+  margin-right: 5px;
+  height: 40%;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.card .container1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card .container1 .image span {
+  position: absolute;
+  color: rgb(92, 92, 203);
+  top: -2px;
+  right: 9px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card .container1 .image i {
+  position: absolute;
+  color: rgb(134, 134, 134);
+  top: 17px;
+  right: 24px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.delete {
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+
+/* .Showimage {
+  padding: 5px;
+  margin-bottom: 3px;
+} */
+.cardproduct {
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 0.1px dotted #818181;
+}
+
+.Showimage {
+  height: 100%;
+  height: 100%;
+}
+
+
+
+.Showimage .imgproduct {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.container1img {
+  height: 100%;
+  width: 100%;
+}
+
+.Showimage .imgproduct span {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  color: rgb(92, 92, 203);
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.index {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  color: rgb(92, 92, 203);
+  top: 85%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.index1 div {
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #ffffff83;
+}
+
+.index1 div:hover {
+  background-color: #00000072;
+}
+
+.index1 {
+  display: flex;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}

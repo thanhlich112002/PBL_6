@@ -1,0 +1,141 @@
+.now-detail-profile1 {
+    border-radius: 4px;
+    width: 100%;
+}
+
+.content-user-profile1 {
+    display: flex;
+}
+
+.user-profile-update11 {
+    width: 70%;
+    padding: 20px 50px;
+    margin: 0;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.user-profile-update1 {
+    width: 30%;
+    padding: 20px 50px;
+    margin: 0;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.title-user1 {
+    font-weight: 700;
+    font-size: 15px;
+
+    padding-bottom: 20px;
+    position: relative
+}
+
+.user-avatar-image1 {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 0.1px solid #ebebeb;
+    align-items: center;
+    position: relative;
+
+}
+
+.row11 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.label-custom11 {
+    border: 0.1px solid rgb(84, 84, 84);
+    width: 65px;
+    padding: 5px 5px 5px 0px;
+    border-radius: 2px;
+    margin: 0 5px;
+    padding: 0 10px;
+}
+
+.form-group11 {
+    display: flex;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+.form-group111 {
+    font-size: 15px;
+    display: flex;
+    outline: none;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(254, 191, 191);
+}
+
+.custom-file-image1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn11 {
+    width: auto;
+    margin: 10px 0 10px 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.col-3_11 {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.col-81,
+.col-91,
+.col-41 {
+    flex: 2;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-group11 input {
+    width: 90%;
+    font-size: 14px;
+    padding: 0 20px;
+    border: 0;
+    border: 1px solid #ededed;
+    height: 30px;
+    margin: 0;
+
+
+}
+
+.input-group11 textarea {
+    width: 90%;
+    font-size: 14px;
+    padding: 0 20px;
+    height: 70px;
+    border: 0;
+    border: 1px solid #ededed;
+    margin: 0;
+
+
+}
+
+.change-pass1 {
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 150px;
+    border: 0;
+    border-bottom: 1px solid #4073a7;
+    padding: 0
+}

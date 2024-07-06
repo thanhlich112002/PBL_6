@@ -1,0 +1,20 @@
+extends baseEmail
+
+block content
+    p Hi #{firstName},
+    p We have received a request to verify your account. Here is your token: #{token}.
+    p (Website for this action not yet implememnted.)
+    table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+        tbody
+            tr
+                td(align='left')
+                    table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+                        tbody
+                            tr
+                                td
+                                    a(href=`${url}`, target='_blank') Verify your account
+    p Please enter this code on the account verification page.
+
+    p If you did not request account verification, please ignore this email.
+
+    p Best regards, [FALTH]

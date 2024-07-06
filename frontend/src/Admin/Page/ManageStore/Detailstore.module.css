@@ -1,0 +1,301 @@
+.title_top {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #9a9a9a;
+    width: 100%;
+    height: 40px;
+
+}
+
+.center {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: #ffffff;
+
+
+}
+
+.img_center {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.img_bill {
+    height: 25vh;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+.center1 {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 25%;
+
+
+}
+
+.center1_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.center1_title2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.center1_title3 {
+    font-size: 15px;
+    color: #191b6f;
+}
+
+.bot {
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+.button_bot {
+    height: 30px;
+    width: 150px;
+    background-color: #4c4ecd;
+    color: white;
+    border-radius: 20px;
+}
+
+.dsdh {
+    background-color: #9a9a9a;
+    margin-top: 0px 10px;
+}
+
+.titledsdh {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.table_order {
+    padding: 0px 10px;
+    gap: 100px;
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    background: #846add;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.dshd1 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #a9a9a9;
+    padding: 10px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.table_order {
+    gap: 100px;
+    max-height: 355px;
+    overflow-y: auto;
+}
+
+
+.searchInput {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.searchBar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+
+.tableContainer {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.t_order {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.t_order th,
+.t_order td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.lichngu {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.add {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.35);
+    gap: 10px;
+
+}
+
+.container {
+    padding: 20px;
+}
+
+.Store {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.Name_store {
+    font-size: 25px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.addres_store {
+    font-weight: 10;
+}
+
+.bill {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    gap: 50;
+    margin-top: 20px;
+}
+
+.bill_stt {
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    gap: 15px;
+}
+
+.bill_time {
+    margin-bottom: 20px;
+}
+
+.Store {
+    text-align: center;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.col {
+    flex: 2;
+}
+
+.col3 {
+    flex: 2;
+}
+
+.col3 {
+    font-weight: 600;
+}
+
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px !important;
+    margin-right: 40%;
+}
+
+.col1 {
+    flex: 1;
+    font-weight: 600;
+}
+
+.isloading {
+    border: 0.1px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.infocustumer {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infocustumer h6 {
+    margin-bottom: 2px;
+}
+
+.infocustumer span {
+    font-size: 12px;
+    display: inline;
+
+}
+
+.infocustumer1 {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    gap: 5px;
+}
+
+.bill_stt1 {
+    display: flex;
+    flex-direction: column;
+}

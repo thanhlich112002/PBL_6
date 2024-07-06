@@ -1,0 +1,10 @@
+.chatBoxContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.speedDialContainer {
+    display: flex;
+    align-items: flex-end;
+}

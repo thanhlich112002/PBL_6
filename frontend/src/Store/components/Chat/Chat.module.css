@@ -1,0 +1,212 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 450px;
+    width: 650px;
+    border: 0.1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+.message {
+    border-top: 0.1px solid rgb(201, 201, 201);
+    display: flex;
+    height: 90%;
+}
+
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header span {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 40%;
+    padding: 10px;
+
+}
+
+.header i {
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.iconContainer {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+.chats {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-right: 0.1px solid rgb(201, 201, 201);
+    gap: 10px;
+}
+
+.userChat {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chats :hover {
+    background: #eeeeee;
+}
+
+.userChat img {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.userChatInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.userChatInfo span {
+    font-weight: bold;
+}
+
+.userChatInfo p {
+    margin: 0;
+}
+
+
+.formchat {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameuser {
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 0.1px solid rgb(201, 201, 201);
+}
+
+.nameuser span {
+    font-weight: 600;
+}
+
+.messageuser {
+    padding: 10px 10px;
+    height: 80%;
+    background-color: #f5f5f5;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.input {
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top: 0.1px solid rgb(201, 201, 201);
+
+
+    input {
+        width: 100%;
+        border: none;
+        outline: none;
+        color: #2f2d52;
+        font-size: 18px;
+
+        &::placeholder {
+            color: lightgray;
+        }
+    }
+
+    .send {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            height: 24px;
+            cursor: pointer;
+        }
+
+        button {
+            border: none;
+            padding: 7px 10px;
+            color: white;
+            background-color: #8da4f1;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+.containerinput {
+    width: 100%;
+}
+
+
+
+.containerWc {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.robot {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}

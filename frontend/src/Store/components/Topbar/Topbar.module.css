@@ -1,0 +1,53 @@
+.contaiter {}
+
+.notification {
+    width: 100%;
+    padding: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.1px solid #d7d2d2;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.notification:hover {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.1px solid #d7d2d2;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    display: flex;
+    gap: 10px;
+    background-color: #ededed;
+}
+
+.notification .span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.infomative {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.seed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 550;
+}
+
+.mes {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

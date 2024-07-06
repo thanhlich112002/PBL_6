@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: Noto Sans, Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+.chat-container {
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+  right: 10px;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+    /* Kích thước ban đầu */
+  }
+
+  50% {
+    transform: scale(1.2);
+    /* Kích thước phóng to */
+  }
+
+  100% {
+    transform: scale(1);
+    /* Kích thước ban đầu */
+  }
+}
+
+
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  display: flex;
+  margin: auto;
+  animation: zoomInOut 4s infinite;
+  /* Infinite để lặp lại liên tục */
+  height: 60px;
+  cursor: pointer;
+  transition: transform 2s ease;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

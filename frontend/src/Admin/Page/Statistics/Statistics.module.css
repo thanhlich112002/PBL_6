@@ -1,0 +1,216 @@
+.box {
+    border: 0.1px solid rgb(230, 230, 230);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.isloading {
+    border: 0.1px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box1 {
+    margin: 10px 20px;
+}
+
+.container {
+    border-bottom: 0.1px solid rgb(230, 230, 230);
+}
+
+.InteractivePieChart {
+    padding-top: 50px;
+}
+
+.top {
+    display: flex;
+
+}
+
+.icon {
+    height: 40px;
+    border: 0.1px solid rgb(230, 230, 230);
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.rightContent1 select {
+    height: 30px;
+    border-radius: 1px;
+    border: 0.1px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-size: 14px;
+    width: 100%;
+}
+
+.SelectTime {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: "10px";
+
+}
+
+.SelectTime select {
+
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 5px;
+    border: 0.1px solid rgb(230, 230, 230);
+}
+
+.rightContent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+
+.tittle span {}
+
+.center {
+    padding: 5px 0px;
+}
+
+.center span {
+    font-weight: 500;
+    color: rgb(159, 159, 159);
+    font-size: 16px;
+}
+
+.botton span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.view {
+    display: flex;
+    padding: 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.view span {}
+
+.view .rightContent {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.progressCircle {
+    display: flex;
+    height: 100%;
+}
+
+.progressCirclel {
+    width: 60%;
+}
+
+
+.progressCircler {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tranding span {
+    padding-top: 10px;
+    font-weight: 600;
+    color: rgb(21, 20, 20);
+    font-size: 18px;
+}
+
+.LineChart {
+    height: 32vh;
+
+}
+
+.name {
+    flex: 2;
+}
+
+.img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img img {
+
+    height: 50px;
+    width: 50px;
+    background-color: rgb(104, 104, 104);
+}
+
+.name span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price {
+    flex: 1;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+
+.producttop {
+    display: flex;
+    padding: 6px 0px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid rgb(223, 223, 223);
+}
+
+.sold {
+    flex: 1;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+}

@@ -1,0 +1,124 @@
+.full {
+    height: 80%;
+    width: auto;
+    margin: 20px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    border: 0.1px solid #ccc;
+    overflow-y: auto;
+}
+
+.listvoucher {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.voucher {
+    margin: 5px;
+    border: 0.1px solid #ffc7c7;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: calc(33.333% - 10px);
+    height: 23%;
+}
+
+.voucher:hover {
+    margin: 5px;
+    border: 0.1px solid #ffc7c7;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: calc(33.333% - 10px);
+    height: 23%;
+    box-shadow: 1px 1px 1px 1px rgb(134, 134, 134);
+}
+
+
+.Image {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Image i {
+    font-size: 70px;
+    color: #ccc;
+}
+
+.infomation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.title {
+    width: 240px;
+    padding: 2px;
+    color: #ff9d9d;
+    border-radius: 3px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.AddVoucher_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    gap: 20px;
+}
+
+.AddVoucher_input {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
+
+.editForm {
+    background-color: white;
+    padding: 20px;
+    z-index: 3;
+    display: grid;
+    width: 100%;
+}
+
+.editForm h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.editForm input {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.btn_cancel {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid rgba(247, 160, 128, 0.863) !important;
+    background-color: rgba(255, 167, 130, 0.137) !important;
+    color: rgba(0, 0, 0, 0.863) !important;
+    margin-top: 10px;
+}

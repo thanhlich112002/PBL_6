@@ -1,0 +1,172 @@
+.container {
+    display: flex;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 1400px;
+    border: #e6e6e6;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.search {
+    position: relative;
+    cursor: pointer;
+}
+
+.logo_search {
+    margin-left: 30px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.image_search {
+    height: 40PX;
+    position: absolute;
+    right: 20px;
+}
+
+.search_input {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: 3px solid gray;
+    border-radius: 5px;
+    font-size: 17px;
+    color: rgba(1, 1, 1, 0.8);
+}
+
+.avatar {
+    display: flex;
+    margin-right: 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.avatar_image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.quantity {
+    position: absolute;
+    top: -9px;
+    right: -8px;
+    background-color: rebeccapurple;
+    padding: 0px 5px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.add {
+    position: absolute;
+    text-align: left;
+    top: 90%;
+    right: 30px;
+    width: 250px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+.profile1 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid rgb(130, 126, 126);
+    border-radius: 20px;
+}
+
+.profile {
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.avatar_image1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(134, 137, 137);
+    text-align: center;
+}
+
+.angright {
+    padding-left: 40%;
+}
+
+.notification {
+    position: absolute;
+    text-align: left;
+    top: 90%;
+    right: 50px;
+    width: 350px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.notification1{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    padding: 5px 5px 10px 20px;
+}
+.notification12{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
